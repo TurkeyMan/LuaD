@@ -119,6 +119,9 @@
       <SubSystem>Console</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
     </Link>
+    <DCompile>
+      <DebugInfo>Mago</DebugInfo>
+    </DCompile>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <ClCompile>
@@ -132,6 +135,9 @@
       <SubSystem>Console</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
     </Link>
+    <DCompile>
+      <DebugInfo>Mago</DebugInfo>
+    </DCompile>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <ClCompile>
@@ -160,6 +166,7 @@
     </DCompile>
     <DCompile>
       <BoundsCheck>SafeOnly</BoundsCheck>
+      <DebugInfo>Mago</DebugInfo>
     </DCompile>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
@@ -189,6 +196,7 @@
     </DCompile>
     <DCompile>
       <BoundsCheck>SafeOnly</BoundsCheck>
+      <DebugInfo>Mago</DebugInfo>
     </DCompile>
   </ItemDefinitionGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

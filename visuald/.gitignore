@@ -1,3 +1,7 @@
 *.suo
+*.user
 .build
 .build.cmd
+[Dd]ebug/
+[Rr]elease/
+x64/
