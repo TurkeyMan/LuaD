@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="luad">
+      <UniqueIdentifier>{9396477a-51c2-416a-9f1b-97e76911b53b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="luad\c">
+      <UniqueIdentifier>{d6935d88-b0ff-43d6-a70e-7914e33d332c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="luad\conversions">
+      <UniqueIdentifier>{1b13ade6-5fbb-48eb-b514-ad36aa41ffeb}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <DCompile Include="..\luad\all.d">
+      <Filter>luad</Filter>
+    </DCompile>
+    <DCompile Include="..\luad\base.d">
+      <Filter>luad</Filter>
+    </DCompile>
+    <DCompile Include="..\luad\dynamic.d">
+      <Filter>luad</Filter>
+    </DCompile>
+    <DCompile Include="..\luad\error.d">
+      <Filter>luad</Filter>
+    </DCompile>
+    <DCompile Include="..\luad\lfunction.d">
+      <Filter>luad</Filter>
+    </DCompile>
+    <DCompile Include="..\luad\lmodule.d">
+      <Filter>luad</Filter>
+    </DCompile>
+    <DCompile Include="..\luad\stack.d">
+      <Filter>luad</Filter>
+    </DCompile>
+    <DCompile Include="..\luad\state.d">
+      <Filter>luad</Filter>
+    </DCompile>
+    <DCompile Include="..\luad\table.d">
+      <Filter>luad</Filter>
+    </DCompile>
+    <DCompile Include="..\luad\testing.d">
+      <Filter>luad</Filter>
+    </DCompile>
+    <DCompile Include="..\luad\c\all.d">
+      <Filter>luad\c</Filter>
+    </DCompile>
+    <DCompile Include="..\luad\c\lauxlib.d">
+      <Filter>luad\c</Filter>
+    </DCompile>
+    <DCompile Include="..\luad\c\lua.d">
+      <Filter>luad\c</Filter>
+    </DCompile>
+    <DCompile Include="..\luad\c\luaconf.d">
+      <Filter>luad\c</Filter>
+    </DCompile>
+    <DCompile Include="..\luad\c\lualib.d">
+      <Filter>luad\c</Filter>
+    </DCompile>
+    <DCompile Include="..\luad\c\tostring.d">
+      <Filter>luad\c</Filter>
+    </DCompile>
+    <DCompile Include="..\luad\conversions\arrays.d">
+      <Filter>luad\conversions</Filter>
+    </DCompile>
+    <DCompile Include="..\luad\conversions\assocarrays.d">
+      <Filter>luad\conversions</Filter>
+    </DCompile>
+    <DCompile Include="..\luad\conversions\classes.d">
+      <Filter>luad\conversions</Filter>
+    </DCompile>
+    <DCompile Include="..\luad\conversions\functions.d">
+      <Filter>luad\conversions</Filter>
+    </DCompile>
+    <DCompile Include="..\luad\conversions\structs.d">
+      <Filter>luad\conversions</Filter>
+    </DCompile>
+    <DCompile Include="..\luad\conversions\variant.d">
+      <Filter>luad\conversions</Filter>
+    </DCompile>
+  </ItemGroup>
+</Project>
